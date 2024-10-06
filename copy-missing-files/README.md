@@ -23,7 +23,7 @@ python main.py ./sample-source ./sample-destination
 The script accepts the following command-line arguments:
 - `source_folder` (required): Path to the source directory.
 - `destination_folder` (required): Path to the destination directory.
-- `--db-path` (optional): Path to the SQLite database file. Defaults to file_index.db in the current directory.
+- `--db-path` (optional): Path to the SQLite database file. Defaults to files.db in the current directory.
 - `--batch-size` (optional): Number of files to process before writing to the database. Defaults to 100.
 
 #### Parameters Explained

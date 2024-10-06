@@ -16,7 +16,7 @@ This script recursively scans a specified directory, processes each file to coll
 
 ## Usage
 
-    python file_indexer.py [start_path] [db_path]
+    python main.py [start_path] [db_path]
 
 - `start_path` *(optional)*: The directory to start indexing from. Defaults to the current directory (`./`) if not specified.
 - `db_path` *(optional)*: The path to the database file where metadata will be stored. Defaults to `./files.db` if not specified.
@@ -25,15 +25,15 @@ This script recursively scans a specified directory, processes each file to coll
 
 ### Index the current directory and store metadata in `files.db`
 
-    python file_indexer.py
+    python main.py
 
 ### Index a specific directory and store metadata in a custom database
 
-    python file_indexer.py /path/to/directory /path/to/my_files.db
+    python main.py /path/to/directory /path/to/my_files.db
 
 ### Index the current directory and specify a custom database file
 
-    python file_indexer.py ./ /tmp/custom_files.db
+    python main.py ./ /tmp/custom_files.db
 
 ## Notes
 
